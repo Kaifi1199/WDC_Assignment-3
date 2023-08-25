@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed&display=swap" rel="stylesheet"> -->
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        .contactus2 {
+            padding: 40px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            font-weight: 400;
+        }
+
+        .contactform {
+            display: inline-block;
+            padding-left: 40px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        #name {
+            border: 1px solid white;
+            border-bottom: 4px solid grey;
+            width: 500px;
+            font-size: 20px;
+            margin: 0px 0px 30px 0px;
+        }
+
+        #phone {
+            border: 1px solid white;
+            border-bottom: 4px solid grey;
+            width: 500px;
+            font-size: 20px;
+            margin: 0px 0px 30px 0px;
+        }
+
+        #email {
+            border: 1px solid white;
+            border-bottom: 4px solid grey;
+            width: 500px;
+            font-size: 20px;
+            margin: 0px 0px 30px 0px;
+        }
+
+        #message {
+            border: 1px solid white;
+            border-bottom: 4px solid grey;
+            width: 500px;
+            font-size: 20px;
+            margin: 40px 0px 0px 0px;
+        }
+
+        .sendbtn {
+            display: flex;
+            justify-content: left;
+            padding-top: 70px;
+            padding-left: 5px;
+        }
+
+        .sendbtn button {
+            width: 120px;
+            height: 40px;
+            font-size: 15px;
+            border: 2px solid rgb(251, 153, 2);
+            background: rgb(251, 153, 2);
+            color: white;
+            cursor: pointer;
+        }
+
+        .dishimg {
+            float: right;
+            width: 250px;
+        }
+
+        .footer {
+            padding-top: 80px;
+        }
+
+        .footer p {
+            background: rgb(214, 214, 214);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 15px;
+        }
+
+        #sub {
+            padding: 6px;
+        }
+    </style>
+</head>
+
+<body>
+    <section id="home">
+        <header>
+            <a class="tropiko" href="#">
+                <img class="img" src="images/logo.png" alt="">TROPIKO
+            </a>
+            <nav>
+                <a href="./index.html">Home</a>
+                <a href="./fruits.html">Fruits</a>
+                <a href="./services.html" target="_blank">Services</a>
+                <a href="./contactus.html">Contact us</a>
+                <img class="srch" src="images/search-icon.png" alt="">
+                <button class="btn">
+                    GET A QUOTE
+                </button>
+            </nav>
+        </header>
+        <div class="section">
+            <div class="section-content">
+                <h1>Welcome to</h1>
+                <h1>Our Fruits Shop</h1>
+                <p>There are many variations of passages of Lorem Ipsum available, but the majority have
+                    suffered alteration in some form, by injected humour, or randomised words which don't look even
+                    slightly
+                    believable.</p>
+                <div class="btn-box">
+                    <a class="shopnow" href="#">SHOP NOW</a>
+                    <a class="contactus" href="#">CONTACT US</a>
+                </div>
+            </div>
+            <div class="image">
+                <img src="images/slide-img.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section id="Contactus">
+        <img class="dishimg" src="images/orange-dish.png" alt="">
+        <div class="contactus2">
+            <h2>Contact Us</h2>
+        </div>
+        <div class="contactform">
+            <form action="./contactus.html">
+                <div>
+                    <input type="text" name="" id="name" placeholder="Name">
+                </div>
+                <div>
+                    <input type="phone" name="" id="phone" placeholder="Phone No.">
+                </div>
+                <div>
+                    <input type="email" name="" id="email" placeholder="Email">
+                </div>
+                <div>
+                    <input type="text" name="" id="message" placeholder="Message">
+                </div>
+            </form>
+            <div class="sendbtn">
+                <button>Send</button>
+            </div>
+        </div>
+        <table style="padding-top:12% ; font-family:Arial, Helvetica, sans-serif">
+            <tbody>
+                <tr style="font-size: 30px;">
+                    <td>Fruits</td>
+                    <td>Services</td>
+                    <td>List</td>
+                    <td>Follow Us</td>
+                </tr>
+
+                <tr style="font-size: 18px;">
+                    <td style="width: 30%;">randomish</td>
+                    <td style="width: 30%;">randomish</td>
+                    <td style="width: 35%;">randomish</td>
+                    <td style="width: 40%; padding-top: 15px;" rowspan="8"> <img
+                            style="margin: 0px 20px 0px 0px;width: 34px; cursor:pointer" src="./Images/fb.png"
+                            alt="icom">
+                        <img style="margin: 0px 20px 0px 0px; width: 34px; cursor:pointer" src="./Images/instagram.png"
+                            alt="icom">
+                        <img style="margin: 0px 20px 0px 0px;width: 34px; cursor:pointer" src="./Images/twitter.png"
+                            alt="icom">
+                        <img style="margin: 0px 20px 0px 0px;width: 34px; cursor:pointer" src="./Images/linkedin.png"
+                            alt="icom"><br>
+                        <br>
+                        <span style="font-size: 25px;">Subscribe now
+                        </span>
+                        <br><br>
+                        <form>
+                            <input type="text" id="sub">
+                            <br><br>
+                            <input type="submit" name="Subscribe" value="Subscribe" class="button"
+                                style="font-size:20px; color:white; border: 2px solid orangered; cursor: pointer; background-color: orangered; height:40px ; width: 160px ">
+                        </form>
+                    </td>
+                </tr>
+                <tr style="font-size: 18px;">
+                    <td>words which</td>
+                    <td>words which</td>
+                    <td>words which</td>
+                    <td></td>
+                </tr>
+                <tr style="font-size: 18px;">
+                    <td>don't look even</td>
+                    <td>don't look even</td>
+                    <td>don't look even</td>
+                    <td></td>
+                </tr>
+                <tr style="font-size: 18px;">
+                    <td>belevable, if you </td>
+                    <td>belevable, if you </td>
+                    <td>belevable, if you </td>
+                    <td></td>
+                </tr>
+                <tr style="font-size: 18px;">
+                    <td>are going to use</td>
+                    <td>are going to use</td>
+                    <td>are going to use</td>
+                    <td></td>
+                </tr>
+                <tr style="font-size: 18px;">
+                    <td>a passage of</td>
+                    <td>a passage of</td>
+                    <td>a passage of</td>
+                    <td></td>
+                </tr>
+                <tr style="font-size: 18px;">
+                    <td>LoremIpsum</td>
+                    <td>LoremIpsum</td>
+                    <td>LoremIpsum</td>
+                    <td></td>
+                </tr>
+
+            </tbody>
+        </table>
+        <footer class="footer">
+            <p>Copyright &copy; 2022 All Rights Reserved By Dev Umair</p>
+        </footer>
+
+    </section>
+</body>
+
+</html>
