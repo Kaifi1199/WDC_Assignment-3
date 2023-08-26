@@ -477,7 +477,8 @@ nav a {
 }
 
 #name {
-    border: 1px solid white;
+    border: none;
+    outline: none;
     border-bottom: 4px solid grey;
     width: 500px;
     font-size: 20px;
@@ -485,7 +486,8 @@ nav a {
 }
 
 #phone {
-    border: 1px solid white;
+    border: none;
+    outline: none;
     border-bottom: 4px solid grey;
     width: 500px;
     font-size: 20px;
@@ -493,7 +495,8 @@ nav a {
 }
 
 #email {
-    border: 1px solid white;
+    border: none;
+    outline: none;
     border-bottom: 4px solid grey;
     width: 500px;
     font-size: 20px;
@@ -501,7 +504,8 @@ nav a {
 }
 
 #message {
-    border: 1px solid white;
+    border: none;
+    outline: none;
     border-bottom: 4px solid grey;
     width: 500px;
     font-size: 20px;
@@ -530,6 +534,7 @@ nav a {
     width: 250px;
 }
 
+
 .footer {
     padding-top: 80px;
 }
@@ -544,4 +549,50 @@ nav a {
 
 #sub {
     padding: 6px;
+}
+
+table {
+    padding-top: 12%;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.tr1 {
+    font-size: 30px;
+}
+
+.tr2 {
+    font-size: 18px;
+}
+
+.tr3 {
+    font-size: 18px;
+}
+
+.td1 {
+    width: 30%;
+}
+
+.tdlogo {
+    width: 40%;
+    padding-top: 15px;
+}
+
+.tdlogo img {
+    margin: 0px 20px 0px 0px;
+    width: 34px;
+    cursor: pointer
+}
+
+span {
+    font-size: 25px;
+}
+
+.subbutton {
+    font-size: 20px;
+    color: white;
+    border: 2px solid orangered;
+    cursor: pointer;
+    background-color: orangered;
+    height: 40px;
+    width: 160px
 }

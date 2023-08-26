@@ -22,7 +22,8 @@
         }
 
         #name {
-            border: 1px solid white;
+            border: none;
+            outline: none;
             border-bottom: 4px solid grey;
             width: 500px;
             font-size: 20px;
@@ -30,7 +31,8 @@
         }
 
         #phone {
-            border: 1px solid white;
+            border: none;
+            outline: none;
             border-bottom: 4px solid grey;
             width: 500px;
             font-size: 20px;
@@ -38,7 +40,8 @@
         }
 
         #email {
-            border: 1px solid white;
+            border: none;
+            outline: none;
             border-bottom: 4px solid grey;
             width: 500px;
             font-size: 20px;
@@ -46,7 +49,8 @@
         }
 
         #message {
-            border: 1px solid white;
+            border: none;
+            outline: none;
             border-bottom: 4px solid grey;
             width: 500px;
             font-size: 20px;
@@ -89,6 +93,54 @@
 
         #sub {
             padding: 6px;
+        }
+
+
+
+        table {
+            padding-top: 12%;
+            font-family: Arial, Helvetica, sans-serif
+        }
+
+        .tr1 {
+            font-size: 30px;
+        }
+
+        .tr2 {
+            font-size: 18px;
+        }
+
+        .tr3 {
+            font-size: 18px;
+        }
+
+        .td1 {
+            width: 30%;
+        }
+
+        .tdlogo {
+            width: 40%;
+            padding-top: 15px;
+        }
+
+        .tdlogo img {
+            margin: 0px 20px 0px 0px;
+            width: 34px;
+            cursor: pointer
+        }
+
+        span {
+            font-size: 25px;
+        }
+
+        .subbutton {
+            font-size: 20px;
+            color: white;
+            border: 2px solid orangered;
+            cursor: pointer;
+            background-color: orangered;
+            height: 40px;
+            width: 160px
         }
     </style>
 </head>
@@ -135,91 +187,93 @@
             <h2>Contact Us</h2>
         </div>
         <div class="contactform">
-            <form action="./contactus.html">
-                <div>
-                    <input type="text" id="name" placeholder="Name">
-                </div>
-                <div>
-                    <input type="phone" id="phone" placeholder="Phone No.">
-                </div>
-                <div>
-                    <input type="email" id="email" placeholder="Email">
-                </div>
-                <div>
-                    <input type="text" id="message" placeholder="Message">
-                </div>
-            </form>
+
+            <div>
+                <input type="text" id="name" placeholder="Name">
+            </div>
+            <div>
+                <input type="phone" id="phone" placeholder="Phone No.">
+            </div>
+            <div>
+                <input type="email" id="email" placeholder="Email">
+            </div>
+            <div>
+                <input type="text" id="message" placeholder="Message">
+            </div>
+
             <div class="sendbtn">
                 <button>Send</button>
             </div>
         </div>
-        <table style="padding-top:12% ; font-family:Arial, Helvetica, sans-serif">
+        <table>
             <tbody>
-                <tr style="font-size: 30px;">
+                <tr class="tr1">
                     <td>Fruits</td>
                     <td>Services</td>
                     <td>List</td>
                     <td>Follow Us</td>
                 </tr>
 
-                <tr style="font-size: 18px;">
-                    <td style="width: 30%;">randomish</td>
-                    <td style="width: 30%;">randomish</td>
-                    <td style="width: 35%;">randomish</td>
-                    <td style="width: 40%; padding-top: 15px;" rowspan="8"> <img
-                            style="margin: 0px 20px 0px 0px;width: 34px; cursor:pointer" src="images/fb.png" alt="icon">
-                        <img style="margin: 0px 20px 0px 0px; width: 34px; cursor:pointer" src="images/instagram.png"
-                            alt="icon">
-                        <img style="margin: 0px 20px 0px 0px;width: 34px; cursor:pointer" src="images/twitter.png"
-                            alt="icon">
-                        <img style="margin: 0px 20px 0px 0px;width: 34px; cursor:pointer" src="images/linkedin.png"
-                            alt="icon"><br>
+                <tr class="tr2">
+                    <td class="td1">randomish</td>
+                    <td class="td1">randomish</td>
+                    <td class="td1">randomish</td>
+                    <td class="tdlogo" rowspan="8">
+                        <img src="images/fb.png" alt="icon">
+                        <img src="images/instagram.png" alt="icon">
+                        <img src="images/twitter.png" alt="icon">
+                        <img src="images/linkedin.png" alt="icon"><br>
                         <br>
-                        <span style="font-size: 25px;">Subscribe now
+                        <span>Subscribe now
                         </span>
                         <br><br>
                         <form>
                             <input type="text" id="sub">
                             <br><br>
-                            <input type="submit" name="Subscribe" value="Subscribe" class="button"
-                                style="font-size:20px; color:white; border: 2px solid orangered; cursor: pointer; background-color: orangered; height:40px ; width: 160px ">
+                            <input class="subbutton" type="submit" name="Subscribe" value="Subscribe">
                         </form>
                     </td>
                 </tr>
-                <tr style="font-size: 18px;">
+                <tr>
                     <td>words which</td>
                     <td>words which</td>
                     <td>words which</td>
                     <td></td>
                 </tr>
-                <tr style="font-size: 18px;">
+                <tr class="tr3">
                     <td>don't look even</td>
                     <td>don't look even</td>
                     <td>don't look even</td>
                     <td></td>
                 </tr>
-                <tr style="font-size: 18px;">
-                    <td>belevable, if you </td>
-                    <td>belevable, if you </td>
-                    <td>belevable, if you </td>
+                <tr class="tr3">
+                    <td>slightly</td>
+                    <td>slightly</td>
+                    <td>slightly</td>
                     <td></td>
                 </tr>
-                <tr style="font-size: 18px;">
+                <tr class="tr3">
+                    <td>belevable. if you </td>
+                    <td>belevable. if you </td>
+                    <td>belevable. if you </td>
+                    <td></td>
+                </tr>
+                <tr class="tr3">
                     <td>are going to use</td>
                     <td>are going to use</td>
                     <td>are going to use</td>
                     <td></td>
                 </tr>
-                <tr style="font-size: 18px;">
+                <tr class="tr3">
                     <td>a passage of</td>
                     <td>a passage of</td>
                     <td>a passage of</td>
                     <td></td>
                 </tr>
-                <tr style="font-size: 18px;">
-                    <td>LoremIpsum</td>
-                    <td>LoremIpsum</td>
-                    <td>LoremIpsum</td>
+                <tr class="tr3">
+                    <td>LoremIpsum,</td>
+                    <td>LoremIpsum,</td>
+                    <td>LoremIpsum,</td>
                     <td></td>
                 </tr>
 
